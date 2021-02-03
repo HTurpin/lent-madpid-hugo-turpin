@@ -2,20 +2,23 @@
     "name": "Lent-Madpid-Hugo Turpin",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.0"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
         "tilemap.g.jres",
-        "tilemap.g.ts"
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.2.16",
+        "target": "1.3.42",
         "targetId": "arcade"
     },
     "supportedTargets": [
